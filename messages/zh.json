@@ -5,7 +5,10 @@
     "projects": "项目",
     "prds": "文档",
     "credentials": "资质",
-    "contact": "联系"
+    "contact": "联系",
+    "pageNotFound": "页面未找到",
+    "pageNotFoundDesc": "你访问的页面不存在",
+    "backToHome": "返回首页"
   },
   "hero": {
     "status": "开放AI产品经理机会",
