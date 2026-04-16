@@ -1,0 +1,207 @@
+{
+  "nav": {
+    "about": "关于",
+    "methodology": "方法论",
+    "projects": "项目",
+    "prds": "文档",
+    "credentials": "资质",
+    "contact": "联系"
+  },
+  "hero": {
+    "status": "开放AI产品经理机会",
+    "name": "陈晓峰",
+    "nameEn": "Windy Chen",
+    "tagline": "懂技术的AI产品构建者",
+    "subtitle": "3次跨界转型 · 4个垂直领域从0到1 · 技术↔业务双向翻译",
+    "tagline_en": "AI Product Builder · 12 years across 5 industries · Tech-Business translator",
+    "cta_resume": "下载简历",
+    "cta_github": "GitHub",
+    "cta_email": "邮箱联系"
+  },
+  "about": {
+    "heading": "关于我",
+    "bio_1": "12年职业生涯跨越5个行业、3次转型：从翻译（造船/化工/军舰）到大数据/金融（华夏银行/行业研究），再到AI产品经理。每一次转型都在3-6个月内达到独立产出水平。",
+    "bio_2": "工商管理+英语口译背景，自学Python/TypeScript/Docker/RAG/MCP/LangGraph等AI全栈技术。不是传统意义的全栈工程师，而是一个能快速理解新领域、搭建产品基础设施、在技术与业务之间做双向翻译的AI产品构建者。",
+    "bio_3": "我做过的事情有一个稳定的模式：快速吸收新领域 → 构建组织缺失的基础设施 → 在无法直接对话的两方之间做翻译。从专利体系到数据管道，从研究框架到培训课程，走后这些东西还在运转。",
+    "location": "上海 · 中国",
+    "languages": "中文母语 · 英语专八 · 上海高级口译"
+  },
+  "methodology": {
+    "heading": "思维方法论",
+    "subtitle": "普通PM讲做了什么。方法论讲怎么想。",
+    "items": [
+      {
+        "title": "约束驱动开发",
+        "subtitle": "Constraint-Driven Development",
+        "summary": "用约束文档+质量门+验证脚本保证复杂系统的架构一致性",
+        "detail": "在RPS研究生产系统中设计54个约束文档、211条编号规则、90+质量门、230个验证脚本，保证了系统在290次版本迭代中的架构一致性。每次迭代发现问题用RCA根因分析定位，修复后同步更新约束文档，确保同类问题不再发生。"
+      },
+      {
+        "title": "双轨模型",
+        "subtitle": "Dual-Track for AI Projects",
+        "summary": "探索轨(POC/技术验证) + 交付轨(Sprint/里程碑) 并行",
+        "detail": "AI项目的不确定性远高于传统软件。YingjiChemAI项目中先用两周周期做POC验证技术可行性，确认后再进入正式Sprint迭代。探索轨持续降低不确定性，交付轨保证里程碑按时完成。"
+      },
+      {
+        "title": "数据驱动迭代",
+        "subtitle": "Data-Driven Iteration",
+        "summary": "定义KPI → 埋点采集 → 分析反馈 → 调优验证的闭环",
+        "detail": "YingjiChemAI上线后定义三个核心KPI：查询准确率、响应时间、处理效率。基于用户反馈数据驱动多轮迭代，将查询准确率从初版78%提升至92%，响应时间控制在3秒以内。"
+      },
+      {
+        "title": "研究情报框架",
+        "subtitle": "Research Intelligence Framework",
+        "summary": "Taxonomy → Indicators → Sources → Matrix 可复用的4层研究方法论",
+        "detail": "为加纳国别研究设计的情报框架：11维度Taxonomy(Politics/People/Economy等) + 256个指标(57 Key/199 Supporting) + 6个IMF数据源映射(WEO/IFS/GFS/BOP/FSI/DOT) + 50×6交叉验证矩阵。换一个国家就能套用，是方法论级别的资产。"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "项目经历",
+    "subtitle": "8个AI产品 · 4个垂直领域 · 从0到1交付",
+    "flagship_label": "旗舰项目",
+    "items": [
+      {
+        "id": "yingjichem",
+        "title": "YingjiChemAI",
+        "subtitle": "盈吉化学AI智能研究平台",
+        "role": "项目负责人",
+        "scale": "¥200万 · 8人团队",
+        "period": "2023.6 - 2024.3",
+        "flagship": true,
+        "problem": "化学行业海量技术文档知识管理痛点：研究员每天花费2-4小时查找文献和提取关键信息",
+        "solution": "8模块全栈AI平台：化学提取 · 6模型智能问答 · 三路混合检索 · GraphRAG知识图谱 · AI报告生成 · 文献助手 · 数据中心 · 应用中心",
+        "impact": ["查询准确率 78% → 92%", "响应时间 < 3秒", "效率提升 80%", "签约¥200万"],
+        "stack": ["React 18", "TypeScript", "pgvector", "GraphRAG", "Docker", "Supabase"],
+        "github": "https://github.com/nightrunner01/yingjichemai"
+      },
+      {
+        "id": "docmind",
+        "title": "DocMind",
+        "subtitle": "智能文档解析系统",
+        "role": "产品经理（从0到1）",
+        "scale": "公司内部首选工具",
+        "period": "2025.10 - 今",
+        "problem": "PDF科研文档人工处理效率低，每份2-4小时",
+        "solution": "基于Qwen-VL多模态大模型的PDF→Markdown解析系统：300并发、多API Key负载均衡、页级断点续传、YAML图表元数据自动生成",
+        "impact": ["2000+ 文档累计处理", "效率提升 10倍 (2-4小时 → 20-40分钟)", "成为公司首选工具"],
+        "stack": ["Python", "Qwen-VL", "异步并发", "YAML"]
+      },
+      {
+        "id": "metarag",
+        "title": "MetaRAG",
+        "subtitle": "多智能体社科知识库",
+        "role": "产品经理（从0到1）",
+        "scale": "海外客户内测",
+        "period": "2025.10 - 今",
+        "problem": "社科研究需要多种方法论预设、多轮对话追踪、国别知识库构建",
+        "solution": "声明式多Agent编排架构(检索/摘要/推理/生成)，内置加纳国别研究框架(11维度/256指标/6数据源)",
+        "impact": ["多家海外客户内测", "基于架构成功申请发明专利"],
+        "stack": ["LangGraph", "RAG", "pgvector", "Agent"]
+      },
+      {
+        "id": "pbimcp",
+        "title": "PBIMCP",
+        "subtitle": "Power BI MCP Server",
+        "role": "产品经理",
+        "scale": "服务20+研究员",
+        "period": "2025.10 - 今",
+        "problem": "研究员需要学DAX才能查数据，学习门槛高",
+        "solution": "8个核心Tool的MCP Server，支持自然语言执行DAX查询、管理数据集、生成可视化图表，OAuth 2.0保障数据安全",
+        "impact": ["消除DAX学习门槛", "数据分析从IT协助变为自助服务", "打通AI与BI数据闭环"],
+        "stack": ["MCP", "OAuth 2.0", "Python", "Power BI"]
+      },
+      {
+        "id": "ai-intel",
+        "title": "AI智能情报分析系统",
+        "subtitle": "航天研究院",
+        "role": "项目协调 / 部分模块",
+        "scale": "约¥600万 · 约20人",
+        "period": "2023 - 2024",
+        "problem": "航天领域情报信息分散，人工汇总效率低",
+        "solution": "基于LLM+GraphRAG的智能情报系统，实现多源自动采集、汇总分析与报告自动生成。国内较早引入GraphRAG知识图谱技术的团队",
+        "impact": ["成功交付航天研究院客户", "参与军工级安全合规体系搭建"],
+        "stack": ["LLM", "GraphRAG", "LangGraph", "私有化部署"]
+      },
+      {
+        "id": "ezoo",
+        "title": "eZoo AI智能导游眼镜",
+        "subtitle": "数据运营大屏",
+        "role": "数据大屏模块开发",
+        "scale": "山西雁门关(5A)",
+        "period": "2024 - 2025",
+        "problem": "景区需要实时监控AI眼镜设备状态、游客行为、运营效果",
+        "solution": "基于TypeScript+Vite独立开发5维度运营决策大屏：设备监控/游客行为/运营看板/问答热点/营销追踪",
+        "impact": ["服务2000+人次", "停留时间从1.5h延长至4小时", "好评率95%"],
+        "stack": ["TypeScript", "Vite", "Docker", "Nginx", "ECharts"]
+      },
+      {
+        "id": "ecom-saas",
+        "title": "电商大数据SaaS平台",
+        "subtitle": "跨境电商定制化服务",
+        "role": "项目经理",
+        "scale": "¥400万 · 5-6家客户",
+        "period": "2020 - 2022",
+        "problem": "跨境电商(亚马逊)客户需要运营策略分析、销售预测、供应链优化",
+        "solution": "将业务需求转化为技术需求，对接研发团队实现数据可视化大屏、报表系统、ERP数据分析、区块链溯源等交付",
+        "impact": ["累计营收¥400万", "为公司AI转型奠定资金基础"],
+        "stack": ["Power BI", "DataV", "ERP", "区块链"]
+      }
+    ]
+  },
+  "prds": {
+    "heading": "产品文档作品集",
+    "subtitle": "6份完整PRD · 六层结构 · 战略/用户/功能/技术/度量/管理",
+    "note": "点击查看完整PDF",
+    "items": [
+      { "id": "yingjichem-prd", "title": "YingjiChemAI PRD v3.0", "pages": "45页", "date": "2024" },
+      { "id": "docmind-prd", "title": "DocMind PRD v2.0", "pages": "32页", "date": "2025" },
+      { "id": "metarag-prd", "title": "MetaRAG PRD v2.0", "pages": "38页", "date": "2025" },
+      { "id": "pbimcp-prd", "title": "PBIMCP PRD v2.0", "pages": "28页", "date": "2025" },
+      { "id": "ai-intel-prd", "title": "AI情报系统 PRD v2.0", "pages": "35页", "date": "2023" },
+      { "id": "ezoo-prd", "title": "eZoo大屏 PRD v2.0", "pages": "26页", "date": "2024" }
+    ]
+  },
+  "credentials": {
+    "heading": "资质与荣誉",
+    "categories": {
+      "patents": {
+        "label": "知识产权",
+        "items": [
+          { "title": "发明专利 × 2", "detail": "基于多模态大模型与GraphRAG的化学知识图谱智能构建系统 · 基于声明式多AI智能体架构的国别知识库构建方法" },
+          { "title": "软件著作权 × 15", "detail": "涵盖AI产品、数据分析、可视化等多个方向" },
+          { "title": "国家高新技术企业认定", "detail": "作为项目负责人主导申请，一次性通过" }
+        ]
+      },
+      "certifications": {
+        "label": "专业认证",
+        "items": [
+          { "title": "工信部大数据开发工程师", "detail": "全国统一考试" },
+          { "title": "英语专业八级 (TEM-8)", "detail": "2016" },
+          { "title": "上海高级口译证书", "detail": "2015" },
+          { "title": "BEC Higher 商务英语高级", "detail": "2014" }
+        ]
+      },
+      "awards": {
+        "label": "学术荣誉",
+        "items": [
+          { "title": "NECCS全国英语竞赛一等奖", "detail": "2015" },
+          { "title": "国家励志奖学金", "detail": "2011" },
+          { "title": "河南省优秀毕业生", "detail": "2012" }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "heading": "联系",
+    "subtitle": "如果你正在招聘AI产品经理，或者只是想聊聊AI产品",
+    "email_label": "邮箱",
+    "email": "[你的邮箱]",
+    "phone_label": "电话",
+    "phone": "[你的手机号]",
+    "github_label": "GitHub",
+    "github": "github.com/nightrunner01",
+    "location": "上海",
+    "footer": "Built with Next.js 15 · Deployed on Vercel"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "nav": {
+    "about": "About",
+    "methodology": "Methodology",
+    "projects": "Projects",
+    "prds": "Documents",
+    "credentials": "Credentials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "status": "Open to AI PM roles",
+    "name": "Windy Chen",
+    "nameEn": "陈晓峰",
+    "tagline": "AI Product Builder with technical depth",
+    "subtitle": "3 career pivots · 4 verticals from 0 to 1 · Bridging tech and business",
+    "tagline_en": "AI Product Builder · 12 years across 5 industries · Tech-Business translator",
+    "cta_resume": "Download Resume",
+    "cta_github": "GitHub",
+    "cta_email": "Email me"
+  },
+  "about": {
+    "heading": "About",
+    "bio_1": "12 years across 5 industries and 3 career pivots: from technical translation (shipbuilding, chemical, naval) to big data and finance (Hua Xia Bank, industry research), to AI product management. Each pivot reached independent output within 3-6 months.",
+    "bio_2": "Business + interpretation background, self-taught in Python, TypeScript, Docker, RAG, MCP, LangGraph — the full AI stack. Not a traditional full-stack engineer, but an AI product builder who can rapidly understand new domains, build product infrastructure, and translate bidirectionally between technology and business.",
+    "bio_3": "There's a consistent pattern in what I've done: absorb a new domain fast, build the missing organizational infrastructure, and translate between two groups that can't directly talk to each other. From patent portfolios to data pipelines, from research frameworks to training programs — these things keep running after I leave.",
+    "location": "Shanghai, China",
+    "languages": "Native Chinese · TEM-8 English · Advanced Interpretation"
+  },
+  "methodology": {
+    "heading": "Methodology",
+    "subtitle": "Most PMs talk about what they did. Methodology is how they thought.",
+    "items": [
+      {
+        "title": "Constraint-Driven Development",
+        "subtitle": "约束驱动开发",
+        "summary": "Use constraint docs, quality gates, and validation scripts to ensure architectural consistency in complex systems",
+        "detail": "In the RPS research production system: 54 constraint documents, 211 numbered rules, 90+ quality gates, 230 validation scripts — maintaining architectural consistency across 290 version iterations. Each issue is traced via RCA root cause analysis, fixed, and the constraint doc is updated to prevent recurrence."
+      },
+      {
+        "title": "Dual-Track for AI",
+        "subtitle": "双轨模型",
+        "summary": "Parallel exploration track (POC / technical validation) + delivery track (Sprint / milestones)",
+        "detail": "AI projects carry far more uncertainty than traditional software. In YingjiChemAI, I used 2-week cycles to POC technical feasibility first, then entered formal Sprint iteration only after validation. The exploration track continuously reduces uncertainty while the delivery track protects milestones."
+      },
+      {
+        "title": "Data-Driven Iteration",
+        "subtitle": "数据驱动迭代",
+        "summary": "Define KPIs → instrument → analyze → tune → validate in a closed loop",
+        "detail": "For YingjiChemAI, I defined three core KPIs at launch: query accuracy, response time, processing efficiency. User feedback data drove multiple iterations that raised query accuracy from initial 78% to 92%, with response time held under 3 seconds."
+      },
+      {
+        "title": "Research Intelligence Framework",
+        "subtitle": "研究情报框架",
+        "summary": "Taxonomy → Indicators → Sources → Matrix: a reusable 4-layer research methodology",
+        "detail": "Intelligence framework designed for Ghana country research: 11-dimension Taxonomy (Politics/People/Economy etc.) + 256 indicators (57 Key / 199 Supporting) + 6 IMF dataset mappings (WEO/IFS/GFS/BOP/FSI/DOT) + 50×6 cross-validation matrix. Swap in another country and the whole framework applies. This is methodology as asset."
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "subtitle": "8 AI products · 4 verticals · delivered from 0 to 1",
+    "flagship_label": "Flagship",
+    "items": [
+      {
+        "id": "yingjichem",
+        "title": "YingjiChemAI",
+        "subtitle": "Full-stack AI research platform for chemistry",
+        "role": "Product Owner",
+        "scale": "¥2M · 8-person team",
+        "period": "2023.6 - 2024.3",
+        "flagship": true,
+        "problem": "Chemistry research teams spent 2-4 hours per day searching literature and extracting key information",
+        "solution": "8-module AI platform: chemical extraction · 6-model Q&A · 3-way hybrid retrieval · GraphRAG · AI report generation · literature assistant · data center · application center",
+        "impact": ["Query accuracy 78% → 92%", "Response time < 3s", "Efficiency +80%", "¥2M signed"],
+        "stack": ["React 18", "TypeScript", "pgvector", "GraphRAG", "Docker", "Supabase"],
+        "github": "https://github.com/nightrunner01/yingjichemai"
+      },
+      {
+        "id": "docmind",
+        "title": "DocMind",
+        "subtitle": "Intelligent document parsing system",
+        "role": "PM (0 to 1)",
+        "scale": "Company's default tool",
+        "period": "2025.10 - present",
+        "problem": "Manual PDF processing took 2-4 hours per document",
+        "solution": "Qwen-VL based PDF-to-Markdown parser: 300 concurrency, multi-API-key load balancing, page-level checkpoint recovery, YAML chart metadata generation",
+        "impact": ["2000+ documents processed", "10× efficiency gain (2-4h → 20-40min)", "Became company default tool"],
+        "stack": ["Python", "Qwen-VL", "Async", "YAML"]
+      },
+      {
+        "id": "metarag",
+        "title": "MetaRAG",
+        "subtitle": "Multi-agent social science knowledge base",
+        "role": "PM (0 to 1)",
+        "scale": "Multiple overseas beta clients",
+        "period": "2025.10 - present",
+        "problem": "Social science research needs multi-methodology presets, conversation tracking, country knowledge bases",
+        "solution": "Declarative multi-agent orchestration (retrieve/summarize/reason/generate) with built-in Ghana research framework (11 dimensions / 256 indicators / 6 data sources)",
+        "impact": ["Multiple overseas client beta tests", "Patent filed based on architecture"],
+        "stack": ["LangGraph", "RAG", "pgvector", "Agent"]
+      },
+      {
+        "id": "pbimcp",
+        "title": "PBIMCP",
+        "subtitle": "Power BI MCP Server",
+        "role": "PM",
+        "scale": "Serves 20+ researchers",
+        "period": "2025.10 - present",
+        "problem": "Researchers needed to learn DAX to query data — high barrier to entry",
+        "solution": "8-tool MCP Server supporting natural-language DAX queries, dataset management, chart generation, with OAuth 2.0 data security",
+        "impact": ["Eliminated DAX learning barrier", "Data analysis: IT-assisted → self-service", "Closed loop between AI agents and BI data"],
+        "stack": ["MCP", "OAuth 2.0", "Python", "Power BI"]
+      },
+      {
+        "id": "ai-intel",
+        "title": "AI Intelligence Analysis System",
+        "subtitle": "Aerospace research institute",
+        "role": "Project coordinator / module contributor",
+        "scale": "~¥6M · ~20 people",
+        "period": "2023 - 2024",
+        "problem": "Aerospace intelligence is fragmented across sources — manual aggregation is slow",
+        "solution": "LLM+GraphRAG based intelligence system with multi-source auto-collection, aggregation analysis, and automated report generation. One of the earliest teams in China to introduce GraphRAG knowledge graphs",
+        "impact": ["Successfully delivered to aerospace client", "Contributed to military-grade security compliance framework"],
+        "stack": ["LLM", "GraphRAG", "LangGraph", "On-premise"]
+      },
+      {
+        "id": "ezoo",
+        "title": "eZoo AI Tour Guide Glasses",
+        "subtitle": "Operations analytics dashboard",
+        "role": "Dashboard module development",
+        "scale": "Yanmen Pass (5A scenic area)",
+        "period": "2024 - 2025",
+        "problem": "Scenic area needed real-time monitoring of AI device status, visitor behavior, operations effectiveness",
+        "solution": "Independently built a 5-dimension operations dashboard with TypeScript+Vite: device monitoring / visitor behavior / operations board / Q&A heat map / marketing tracking",
+        "impact": ["Served 2000+ visitors", "Visit duration 1.5h → 4h", "95% positive reviews"],
+        "stack": ["TypeScript", "Vite", "Docker", "Nginx", "ECharts"]
+      },
+      {
+        "id": "ecom-saas",
+        "title": "E-commerce Big Data SaaS Platform",
+        "subtitle": "Cross-border e-commerce customization",
+        "role": "Project Manager",
+        "scale": "¥4M · 5-6 clients",
+        "period": "2020 - 2022",
+        "problem": "Amazon sellers needed operations analytics, sales forecasting, supply chain optimization",
+        "solution": "Translated business needs into technical requirements, coordinating with engineering to deliver data visualization, reporting, ERP analysis, blockchain traceability",
+        "impact": ["¥4M cumulative revenue", "Funded the company's AI pivot"],
+        "stack": ["Power BI", "DataV", "ERP", "Blockchain"]
+      }
+    ]
+  },
+  "prds": {
+    "heading": "Product Documentation",
+    "subtitle": "6 complete PRDs · six-layer structure · strategy/user/function/tech/metrics/management",
+    "note": "Click to view full PDF",
+    "items": [
+      { "id": "yingjichem-prd", "title": "YingjiChemAI PRD v3.0", "pages": "45 pages", "date": "2024" },
+      { "id": "docmind-prd", "title": "DocMind PRD v2.0", "pages": "32 pages", "date": "2025" },
+      { "id": "metarag-prd", "title": "MetaRAG PRD v2.0", "pages": "38 pages", "date": "2025" },
+      { "id": "pbimcp-prd", "title": "PBIMCP PRD v2.0", "pages": "28 pages", "date": "2025" },
+      { "id": "ai-intel-prd", "title": "AI Intel System PRD v2.0", "pages": "35 pages", "date": "2023" },
+      { "id": "ezoo-prd", "title": "eZoo Dashboard PRD v2.0", "pages": "26 pages", "date": "2024" }
+    ]
+  },
+  "credentials": {
+    "heading": "Credentials",
+    "categories": {
+      "patents": {
+        "label": "Intellectual Property",
+        "items": [
+          { "title": "Invention Patents × 2", "detail": "Multimodal LLM + GraphRAG based chemistry knowledge graph system · Declarative multi-AI-agent architecture for country knowledge base" },
+          { "title": "Software Copyrights × 15", "detail": "Covering AI products, data analytics, visualization" },
+          { "title": "National High-Tech Enterprise Certification", "detail": "Led as project lead, passed on first attempt" }
+        ]
+      },
+      "certifications": {
+        "label": "Certifications",
+        "items": [
+          { "title": "MIIT Big Data Development Engineer", "detail": "National certification" },
+          { "title": "TEM-8 (English Majors Band 8)", "detail": "2016" },
+          { "title": "Shanghai Advanced Interpretation", "detail": "2015" },
+          { "title": "BEC Higher", "detail": "2014" }
+        ]
+      },
+      "awards": {
+        "label": "Academic Honors",
+        "items": [
+          { "title": "NECCS 1st Prize (National)", "detail": "2015" },
+          { "title": "National Endeavor Scholarship", "detail": "2011" },
+          { "title": "Outstanding Graduate of Henan Province", "detail": "2012" }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "heading": "Contact",
+    "subtitle": "If you're hiring an AI PM, or just want to talk AI products",
+    "email_label": "Email",
+    "email": "[your email]",
+    "phone_label": "Phone",
+    "phone": "[your phone]",
+    "github_label": "GitHub",
+    "github": "github.com/nightrunner01",
+    "location": "Shanghai",
+    "footer": "Built with Next.js 15 · Deployed on Vercel"
+  }
+}
