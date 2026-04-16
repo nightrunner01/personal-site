@@ -1,6 +1,8 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
+
 export default function NotFound() {
   const t = useTranslations();
 
